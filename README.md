@@ -18,7 +18,7 @@
 ## :arrow_forward: Usage
 
 ```sh
-npx react-native init MyApp --template AndreyBubnov/react-native-template-typescript
+npx react-native init MyApp --template AndreyBubnov/react-native-template
 ```
 
 ### Note on the legacy CLI
