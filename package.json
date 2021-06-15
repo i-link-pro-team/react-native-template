@@ -1,0 +1,30 @@
+{
+  "name": "react-native-template",
+  "version": "0.0.1",
+  "description": "React Native template for a quick start.",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyBubnov/react-native-template.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate",
+    "atomic-design"
+  ],
+  "author": "Andrey Bubnov <vpbotty@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreyBubnov/react-native-template/issues"
+  },
+  "homepage": "https://github.com/AndreyBubnov/react-native-template#readme"
+}

@@ -1,0 +1,27 @@
+{
+    "presets": ["module:metro-react-native-babel-preset"],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": ["."], //  This says the root of your project folder
+          "extensions": [".ios.ts", ".android.ts", ".ios.tsx", ".android.tsx", ".js", ".ts", ".tsx", ".json"],
+          // Note: You can make a lot of aliases in here
+          "alias": {
+            "@atoms": "./src/components/atoms",
+            "@molecules": "./src/components/molecules",
+            "@organisms": "./src/components/organisms",
+            "@templates": "./src/components/templates",
+            "@pages": "./src/components/pages",
+            "@assets": "./src/assets",
+            "@navigation": "./src/navigation"
+          }
+        }
+      ]
+    ],
+    "env": {
+      "production": {
+        "plugins": ["transform-remove-console"]
+      }
+    }
+  }
