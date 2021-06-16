@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreyBubnov/react-native-template.git"
+    "url": "git+https://github.com/i-link-pro-team/react-native-template.git"
   },
   "keywords": [
     "react-native",
@@ -24,7 +24,7 @@
   "author": "Andrey Bubnov <vpbotty@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AndreyBubnov/react-native-template/issues"
+    "url": "https://github.com/i-link-pro-team/react-native-template/issues"
   },
-  "homepage": "https://github.com/AndreyBubnov/react-native-template#readme"
+  "homepage": "https://github.com/i-link-pro-team/react-native-template#readme"
 }
