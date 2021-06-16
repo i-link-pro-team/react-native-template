@@ -11,4 +11,4 @@ end_of_line = lf
 max_line_length = off
 
 [CHANGELOG.md]
-indent_size = false
+max_line_length = off
