@@ -11,7 +11,16 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\"",
     "new:component": "hygen new component",
     "new:hook": "hygen new hook",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
+  },
+  "standard-version": {
+    "scripts": {
+      "postcommit": "react-native-version && git add . && git commit --amend --no-edit"
+    }
   },
   "dependencies": {
     "react": "17.0.1",
@@ -40,7 +49,9 @@
     "prettier": "2.3.1",
     "pretty-quick": "^3.1.0",
     "react-native-svg-transformer": "^0.14.3",
+    "react-native-version": "^4.0.0",
     "react-test-renderer": "17.0.1",
+    "standard-version": "^9.3.0",
     "typescript": "^3.8.3"
   },
   "resolutions": {

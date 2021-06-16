@@ -14,6 +14,7 @@
 - [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer)
 - Atomic Design file structure
 - Code generation by [hygen](https://www.hygen.io/)
+- [SemVer](https://semver.org/) with [standart-version](https://github.com/conventional-changelog/standard-version) and [react-native-version](https://github.com/stovmascript/react-native-version)
 
 ## :arrow_forward: Usage
 
